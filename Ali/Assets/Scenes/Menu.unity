@@ -3556,8 +3556,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1801573010}
-        m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
-        m_MethodName: 
+        m_TargetAssemblyTypeName: ButtonsManagement, Assembly-CSharp
+        m_MethodName: YeniOyun
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

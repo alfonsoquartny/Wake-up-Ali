@@ -20,11 +20,11 @@ public class ButtonsManagement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SceneManager.LoadScene("story");
     }
     public void YeniOyun()
     {
-       
+        SceneManager.LoadScene("story");
+
     }
     public void HoverSound()
     {
