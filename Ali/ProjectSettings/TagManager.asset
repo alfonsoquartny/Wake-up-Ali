@@ -6,6 +6,8 @@ TagManager:
   tags:
   - button
   - hover
+  - kadin
+  - heisenberg
   layers:
   - Default
   - TransparentFX
