@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class StoryManager : MonoBehaviour
 {
@@ -22,6 +23,10 @@ public class StoryManager : MonoBehaviour
 
     public GameObject playerCam;
 
+    public VideoClip celal;
+    public VideoClip jesse;
+
+    public VideoPlayer player;
 
     private bool degisken;
     void Start()
@@ -80,7 +85,7 @@ public class StoryManager : MonoBehaviour
         {
             int heisenbergValue = 0;
             int kadinValue = 0;
-
+            player.clip = jesse;
             heisenbergs[heisenbergValue].SetActive(true);
             heisenbergValue = heisenbergValue + 1;
 
@@ -97,7 +102,8 @@ public class StoryManager : MonoBehaviour
             int kadinValue = 0;
             int heisenbergValue = 0;
 
-           
+            player.clip = celal;
+
             kadinHocalar[kadinValue].SetActive(true);
             kadinValue = kadinValue + 1;
 

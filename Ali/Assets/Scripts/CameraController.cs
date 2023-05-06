@@ -36,7 +36,7 @@ public class CameraController : MonoBehaviour
 
     public void animatorDisabled()
     {
-
+        gameObject.GetComponent<Animator>().enabled = false;
         Debug.Log("animator devre dýþý");
     }
 

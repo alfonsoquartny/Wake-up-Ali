@@ -5,9 +5,9 @@ OcclusionCullingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_OcclusionBakeSettings:
-    smallestOccluder: 5
+    smallestOccluder: 3.48
     smallestHole: 0.25
-    backfaceThreshold: 100
+    backfaceThreshold: 77.1
   m_SceneGUID: 00000000000000000000000000000000
   m_OcclusionCullingData: {fileID: 0}
 --- !u!104 &2
@@ -14956,6 +14956,49 @@ Transform:
   m_Father: {fileID: 1611558820}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &902769426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 902769428}
+  - component: {fileID: 902769427}
+  m_Layer: 0
+  m_Name: Occlusion Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!192 &902769427
+OcclusionArea:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902769426}
+  serializedVersion: 2
+  m_Size: {x: 10.3, y: 6.69, z: 13.71}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_IsViewVolume: 1
+--- !u!4 &902769428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902769426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.52, z: -7.79}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &911006641
 GameObject:
   m_ObjectHideFlags: 0
@@ -24039,14 +24082,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461959555}
-  m_LocalRotation: {x: 0.055507753, y: 0.92766476, z: -0.15327325, w: 0.3359529}
+  m_LocalRotation: {x: 0.16301468, y: -0.0000066701314, z: 0.0000010773655, w: 0.9866237}
   m_LocalPosition: {x: 0.659, y: 0.893, z: -9.459}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 18.764, y: 140.184, z: 0}
+  m_LocalEulerAnglesHint: {x: 18.764, y: -0.001, z: 0}
 --- !u!114 &1461959560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33336,6 +33379,9 @@ MonoBehaviour:
   sleep: 0
   sleepScreen: {fileID: 472268384}
   playerCam: {fileID: 1461959555}
+  celal: {fileID: 32900000, guid: 26993b20ee26e9348a01456011d0e078, type: 3}
+  jesse: {fileID: 32900000, guid: 513e77274b0cb5343a66fd384e5cb5a3, type: 3}
+  player: {fileID: 2047551982}
 --- !u!1 &2003123271
 GameObject:
   m_ObjectHideFlags: 0
@@ -33922,7 +33968,7 @@ GameObject:
   - component: {fileID: 2047551979}
   - component: {fileID: 2047551982}
   m_Layer: 0
-  m_Name: video
+  m_Name: kadinVideo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
