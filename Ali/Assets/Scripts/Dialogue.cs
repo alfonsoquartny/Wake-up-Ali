@@ -36,7 +36,7 @@ public class Dialogue : MonoBehaviour
             }
         }
 
-        if (index+1 ==lines.Length)
+        if (index+1==3)
         {
             ////SON SATIRA GELINDI
             ///
@@ -70,7 +70,6 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
         }
     }
 }
